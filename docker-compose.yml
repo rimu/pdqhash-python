@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  pdq-api:
+    build: .
+    command: uvicorn app:app --host 0.0.0.0 --port 7050
+    ports:
+      - "7070:7050"
+    environment:
+      - REDIS_URI=redis://172.17.0.1:6379

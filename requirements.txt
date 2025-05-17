@@ -1,6 +1,12 @@
+pillow
 pytest
 numpy
 opencv-python-headless
 wheel
 cython
 setuptools
+quart
+httpx
+uvicorn
+Quart-Rate-Limiter
+Quart-Redis
