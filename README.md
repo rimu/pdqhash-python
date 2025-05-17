@@ -82,4 +82,4 @@ This SQL is a bit weird looking so you might prefer to calculate the hamming dis
 
 ## Installation
 
-See INSTALL.md for installation instructions.
+See [INSTALL.md](https://github.com/rimu/pdqhash-python/blob/master/INSTALL.md) for installation instructions.
